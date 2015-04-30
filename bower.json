@@ -1,8 +1,8 @@
 {
   "name": "xp-notifier",
   "license": "BSD-3-Clause",
-  "version": "0.8.4",
-  "description": "This mixin is used to add pub/sub capabilities to a custom element.",
+  "version": "0.8.5",
+  "description": "A mixin used to add pub/sub capabilities to a custom element",
   "homepage": "http://www.expandjs.com/elements/xp-notifier",
   "authors": [
     "Giuliano Rullo <g.rullo@expandjs.com>",
