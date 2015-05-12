@@ -43,7 +43,7 @@ This mixin is used to add pub/sub capabilities to a custom element.
 
             // Vars
             var self        = this.ensure(),
-                event       = new CustomEvent(type, {bubbles: true, detail: XP.assign({firer: self}, detail)}),
+                event       = new CustomEvent(type, {bubbles: false, detail: XP.assign({firer: self}, detail)}),
                 subscribers = predicate ? XP.filter(self.subscribers, predicate, thisArg) : self.subscribers;
 
             // Notifying
