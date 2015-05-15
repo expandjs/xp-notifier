@@ -47,7 +47,7 @@ This mixin is used to add pub/sub capabilities to a custom element.
                 subscribers = predicate ? XP.filter(self.subscribers, predicate, thisArg) : self.subscribers;
 
             // Notifying
-            XP.invokes(subscribers, 'dispatchEvent', event);
+            XP.invoke(subscribers, 'dispatchEvent', event);
 
             return event;
         },
