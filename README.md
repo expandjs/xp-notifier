@@ -1,3 +1,3 @@
 # xp-notifier
 
-See the [`documentation page`](http://expandjs.com/elements/xp-notifier) for more information.
+This repository **is deprecated**. Use [`xp-pubsub-behavior`](https://github.com/expandjs/xp-pubsub-behavior) instead.
